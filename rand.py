@@ -2,8 +2,8 @@ import numpy as np
 import requests as r
 import hashlib as h
 
-NODE = "https://nodes-testnet.wavesnodes.com"
-BURNING_ADDR = "3Mp5JgVSHA9iziujC9Kmnf2rCN5SYFE97yC"
+NODE = "https://nodes.wavesnodes.com"
+BURNING_ADDR = "3PJmWqAnguio4TNMijjAUwqGNmPGb9WPBYK"
 TOP_USERS_COUNT = 10
 MAIN_PRIZE_ID = 5
 PRIZES_IDS = [0, 1, 2, 3, 4]
