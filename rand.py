@@ -104,7 +104,7 @@ uweights = calc_user_weights_for_rand(users, len(users))
 winners = list(np.random.choice(len(users), min(len(users), sum(prizes)), p=uweights, replace=False))
 for i in list(reversed(range(len(prizes)))):
     for j in range(prizes[i]):
-        index = winners.pop()
+        index = winners.pop(0)
         winned_prizes[users[index]['address']] = PRIZES_IDS[i]
         if not winners:
             break
